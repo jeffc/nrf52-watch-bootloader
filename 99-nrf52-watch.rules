@@ -1,0 +1,2 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="239a", ATTRS{idProduct}=="0029", SYMLINK+="nrf52WatchUpdate"
+SUBSYSTEM=="block", ATTRS{idVendor}=="239a", ATTRS{idProduct}=="0029", SYMLINK+="watchUpdate"
